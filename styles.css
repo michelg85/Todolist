@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Allan|Roboto');
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #8b47d8;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 5px;
+  max-width: 400px;
+  text-align: center;
+  background: #EEEEEE;
+  border-radius: 10px;
+  margin-top: 100px;
+  box-shadow: 4px 5px 10px #6859ee;
+}
+
+h1 {
+  margin: 0;
+  color: #6C7A89;
+  font-family: 'Allan', sans-serif;
+  font-size: 50px;
+  padding: 15px;
+}
+
+#message {
+  color: #D64541;
+}
+
+a {
+  background: #af94f8;
+  font-weight: 700;
+  color: #EEEEEE;
+  text-decoration: none;
+  padding: 5px 9px 5px 9px;
+  position: relative;
+  left: -5px;
+  top: 1px;
+}
+
+a:hover {
+  background: #6c56e9;
+}
+
+.myList{
+  margin: 0px;
+}
+
+#item {
+  height: 29px;
+  width: 166px;
+  border: none;
+  padding: 0 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li.added {
+  color: #fff;
+  background: #8e7dee;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+  left: -12px;
+  width: 185px;
+  display: inline-block;
+  box-shadow: 1px 1px 1px grey;
+  transition: 0.3s;
+}
+
+
+/* li.added:hover {
+  background: #36D7B7;
+  transition:0.3s;
+} */
+
+.delete-btn {
+  display: inline-block;
+  position: relative;
+  left: -32px;
+  top: 0;
+  color: #EEEEEE;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 6px;
+  margin: 0;
+}
+
+.delete-btn:hover {
+  transform: rotate(180deg);
+  transition: 0.3s;
+  color: #000;
+  font-weight: 700;
+}
+
+.coded-by {
+  position: relative;
+  top: 35px;
+  right: -170px;
+  padding: 0;
+  margin: 0;
+  color: rgb(250, 249, 249);
+  font-size: 15px;
+  display: inline-block;
+}
